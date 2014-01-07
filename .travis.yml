@@ -20,7 +20,7 @@ install:
 
   # Run composer
   - cd ./tests/behat
-  - COMPOSER_ROOT_VERSION=dev-master composer --prefer-source --dev install
+  - composer install
   - cd ../../
 
 before_script:
